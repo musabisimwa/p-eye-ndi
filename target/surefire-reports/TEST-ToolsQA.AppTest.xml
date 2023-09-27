@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ToolsQA.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\m2bbi\Documents\GitHub\p-eye-ndi\target\test-classes;c:\Users\m2bbi\Documents\GitHub\p-eye-ndi\target\classes;C:\Users\m2bbi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\m2bbi\.m2\repository\org\openpnp\opencv\4.7.0-0\opencv-4.7.0-0.jar;C:\Users\m2bbi\.m2\repository\org\mockito\mockito-core\5.5.0\mockito-core-5.5.0.jar;C:\Users\m2bbi\.m2\repository\net\bytebuddy\byte-buddy\1.14.6\byte-buddy-1.14.6.jar;C:\Users\m2bbi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.6\byte-buddy-agent-1.14.6.jar;C:\Users\m2bbi\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\m2bbi\.m2\repository\org\apache\pivot\pivot-core\2.0.5\pivot-core-2.0.5.jar;C:\Users\m2bbi\.m2\repository\org\apache\pivot\pivot-wtk\2.0.5\pivot-wtk-2.0.5.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\m2bbi\AppData\Local\Temp\surefire9087917922905458803\surefirebooter-20230926183916322_3.jar C:\Users\m2bbi\AppData\Local\Temp\surefire9087917922905458803 2023-09-26T18-39-16_046-jvmRun1 surefire-20230926183916322_1tmp surefire_0-20230926183916322_2tmp"/>
+    <property name="surefire.test.class.path" value="c:\Users\m2bbi\Documents\GitHub\p-eye-ndi\target\test-classes;c:\Users\m2bbi\Documents\GitHub\p-eye-ndi\target\classes;C:\Users\m2bbi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\m2bbi\.m2\repository\org\openpnp\opencv\4.7.0-0\opencv-4.7.0-0.jar;C:\Users\m2bbi\.m2\repository\org\mockito\mockito-core\5.5.0\mockito-core-5.5.0.jar;C:\Users\m2bbi\.m2\repository\net\bytebuddy\byte-buddy\1.14.6\byte-buddy-1.14.6.jar;C:\Users\m2bbi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.6\byte-buddy-agent-1.14.6.jar;C:\Users\m2bbi\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\m2bbi\.m2\repository\org\apache\pivot\pivot-core\2.0.5\pivot-core-2.0.5.jar;C:\Users\m2bbi\.m2\repository\org\apache\pivot\pivot-wtk\2.0.5\pivot-wtk-2.0.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\m2bbi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre"/>
+    <property name="basedir" value="c:\Users\m2bbi\Documents\GitHub\p-eye-ndi"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\m2bbi\AppData\Local\Temp\surefire9087917922905458803\surefirebooter-20230926183916322_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\resources.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\rt.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\sunrsasign.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jsse.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jce.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\charsets.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\jfr.jar;C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_382-b05"/>
+    <property name="user.name" value="m2bbi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\m2bbi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\m2bbi\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_382"/>
+    <property name="user.dir" value="c:\Users\m2bbi\Documents\GitHub\p-eye-ndi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk1.8.0_382\bin;C:\Program Files\Amazon Corretto\jre8\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Users\m2bbi\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\m2bbi\AppData\Local\Programs\Python\Python311\;C:\Users\m2bbi\anaconda3;C:\Users\m2bbi\anaconda3\Library\mingw-w64\bin;C:\Users\m2bbi\anaconda3\Library\usr\bin;C:\Users\m2bbi\anaconda3\Library\bin;C:\Users\m2bbi\anaconda3\Scripts;C:\Users\m2bbi\AppData\Local\Microsoft\WindowsApps;C:\Users\m2bbi\AppData\Roaming\npm;C:\Users\m2bbi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin;;C:\apache-maven-3.9.1\bin;C:\Users\m2bbi\AppData\Local\GitHubDesktop\bin;C:\Users\m2bbi\Documents\flutter\bin;C:\Users\m2bbi\AppData\Local\Android\Sdk\platform-tools;C:\Users\m2bbi\AppData\Local\Pub\Cache\bin;C:\Users\m2bbi\go\bin;C:\Program Files\Amazon Corretto\jdk1.8.0_382\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.382-b05"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Amazon Corretto\jdk1.8.0_382\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="ToolsQA.AppTest" time="0.003"/>
+</testsuite>
