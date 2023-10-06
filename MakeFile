@@ -1,0 +1,3 @@
+# build windows executable
+
+#build linux sh executable
