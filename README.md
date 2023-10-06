@@ -1,5 +1,12 @@
 # p-eye-ndi
  use normal cameras to track and zoom given subjects 
+
+**Draft1**
+crop the input to a max of 1.5X
+detect faces, pan the matrix to keep an average center
+auto croup out as needed to keep the faces 
+
+send as an NDI display out
  
  Creating an NDI (Network Device Interface) tool that reads camera feeds and outputs them as NDI streams is a great idea for enhancing the flexibility of your video production workflow. NDI is a popular protocol for sending high-quality video and audio over IP networks, making it easier to share video sources across different software and hardware. Here's a step-by-step guide on how to create such a tool:
 
