@@ -5,7 +5,8 @@ import(
 	//"fmt"
 )
 func main() {
-vision.TrackTarget(0)
+//vision.TrackTarget(0)
+//vision.CvTest()
  // fmt.Printf("%s",ndi.Version()) ndi not working yet
 
 }
