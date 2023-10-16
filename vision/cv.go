@@ -1,12 +1,15 @@
 package vision
 
 import (
-	"gocv.io/x/gocv"
 	"image"
+	"log"
+
+	"gocv.io/x/gocv"
 )
 
 // trackTarget is a function that tracks a target (e.g., a face) in a video feed.
-func trackTarget(camera int) {
+func TrackTarget(camera int) {
+    xmlFile:= "data/haarcascade_frontalface_default.xml"
     // Open a video capture device (webcam)
     webcam, err := gocv.OpenVideoCapture(camera)
     if err != nil {
@@ -21,8 +24,9 @@ func trackTarget(camera int) {
     // Load the pre-trained face detection classifier
     classifier := gocv.NewCascadeClassifier()
     defer classifier.Close()
-    if !classifier.Load("haarcascade_frontalface_default.xml") {
-        panic("Error loading face cascade")
+    if !classifier.Load(xmlFile) {
+        log.Fatalln("could not load facial detection  data file")
+        return
     }
 
     // Create a Mat to store the current frame
@@ -60,7 +64,8 @@ func trackTarget(camera int) {
             cropRect = image.Rect(centerX-100, centerY-100, centerX+100, centerY+100)
 
             // Ensure the cropping region is within the frame bounds
-            cropRect = cropRect.Intersect(frame.Bounds())
+         //   cropRect = cropRect.Intersect(frame.Bounds())
+			
         }
 
         // Crop the frame to the defined region
